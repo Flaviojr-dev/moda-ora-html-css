@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Viaoda Libre;
+}
+
+:root {
+    --large-default-padding: 6.5em;
+    --medium-default-padding: 4em;
+}
+
+html {
+    font-size: 62.5%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #162028;
+    height: 10vh;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 1px;
+    gap: 50px;
+    margin-left: 500px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #425564;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.nav-list a:hover {
+    color: white;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s
+}
+
+.img-topo img{
+    width: 100%
+}
+
+.header-meio {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 1.7em;
+    padding: var(--medium-default-padding) var(--large-default-padding);
+}
+
+.header-meio h1 {
+    font-size: 2.25em;
+    color: #252525;
+}
+
+.header-meio p {
+    font-size: 1.4em;
+    color: #252525;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.header-final {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   gap: 40px;
+   font-size: 1.5em; 
+   margin-bottom: 100px;
+   font-family: "Roboto";
+}
+
+.header-final2 {
+    background-color: #003d52;
+    padding: var(--large-default-padding);
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 50em;
+
+}
+
+.div-final h1{
+    text-transform: uppercase;
+    font-size: 6em;
+    font-weight: normal;
+}
+
+.div-final p {
+    line-height: 1.5;
+    width: 70%;
+    font-size: 2.1em;
+    font-family: "Roboto";
+}
+
+.footer {
+    background-color: #0b171f;
+    color: #6f8597;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em;
+}
